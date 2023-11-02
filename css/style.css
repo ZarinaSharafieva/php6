@@ -1,0 +1,60 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 300px;
+  margin: 200px auto;
+}
+.container h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 20px;
+
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container input{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(252, 253, 254);
+
+  padding: 10px;
+
+  width: 300px;
+  height: 48px;
+
+  border: none;
+  border-radius: 10px;
+  background-color: darkgray;
+
+  outline: none;
+}
+
+.container button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  color: aliceblue;
+  background-color: black;
+
+  width: 300px;
+  height: 48px;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.container .error{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(107, 107, 107);
+  font-size: 12px;
+
+  margin-bottom: 10px;
+  text-align: center;
+}
